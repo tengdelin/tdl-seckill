@@ -30,10 +30,10 @@ class SeckillApplicationTests {
 //            System.out.println(user);
 //        }
 
-        List<GoodsVo> goodsVo = goodsMapper.findGoodsVo();
-        for (GoodsVo gv:goodsVo){
-            System.out.println(gv);
-        }
+//        List<GoodsVo> goodsVo = goodsMapper.findGoodsVo();
+//        for (GoodsVo gv:goodsVo){
+//            System.out.println(gv);
+//        }
     }
 
 }
