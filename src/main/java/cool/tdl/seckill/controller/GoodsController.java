@@ -77,7 +77,7 @@ public class GoodsController {
     public String toList(Model model, User user,
                          HttpServletRequest request, HttpServletResponse response) {
         if (user == null) {
-            return "login";
+            return "未正确登录";
         }
         //Redis中获取页面，如果不为空，直接返回页面
         ValueOperations valueOperations = redisTemplate.opsForValue();
