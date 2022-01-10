@@ -53,9 +53,6 @@ public class GoodsController {
      */
     @RequestMapping("/toList")
     public String test(Model model, User user) {
-        if (user == null) {
-            return "login";
-        }
         model.addAttribute("user", user);
         model.addAttribute("goodsList", goodsService.findGoodsVo());
         return "goodsList";
@@ -76,9 +73,6 @@ public class GoodsController {
     @ResponseBody
     public String toList(Model model, User user,
                          HttpServletRequest request, HttpServletResponse response) {
-        if (user == null) {
-            return "未正确登录";
-        }
         //Redis中获取页面，如果不为空，直接返回页面
         ValueOperations valueOperations = redisTemplate.opsForValue();
         String html = (String) valueOperations.get("goodsList");
