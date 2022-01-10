@@ -58,7 +58,7 @@ public class UserUtil {
 //        System.out.println("insert to db");
 
         //登录，生成userTicket
-        String urlString = "http://localhost:8080/login/doLogin";
+        String urlString = "http://localhost:8081/login/doLogin";
         File file = new File("C:\\Users\\tdl\\Desktop\\config.txt");
         if (file.exists()) {
             file.delete();
