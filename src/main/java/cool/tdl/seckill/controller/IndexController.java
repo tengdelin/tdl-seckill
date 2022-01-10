@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class IndexController {
+
+    /**
+     * 配置了mvc，需要首页跳转
+     * @return
+     */
     @GetMapping({"/", "/index"})
     private String index() {
         return "index";

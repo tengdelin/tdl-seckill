@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * @Author tdl
  * @Date 2022/1/8 16:14
- * @description XXX
+ * @description 注解
  * @Version 1.0
  */
 @Retention(RetentionPolicy.RUNTIME)

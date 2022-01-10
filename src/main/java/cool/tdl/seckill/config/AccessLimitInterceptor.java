@@ -23,7 +23,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @Author tdl
  * @Date 2022/1/8 16:13
- * @description XXX
+ * @description 接口限流，拦截器实现
  * @Version 1.0
  */
 @Component

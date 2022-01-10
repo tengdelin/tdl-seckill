@@ -5,7 +5,7 @@ import cool.tdl.seckill.entity.User;
 /**
  * @Author tdl
  * @Date 2022/1/8 16:12
- * @description XXX
+ * @description 线程参数绑定
  * @Version 1.0
  */
 public class UserContext {
